@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url("/PRJ_GIUAKY/assets/IMG/image1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 190px;
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: #e50914;
+    color: #fff;
+    padding: 7px 20px;
+    font-size: 17px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-block;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+}
+.language-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 100px;   
+}
+.header-content h1{
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: 700;
+    max-width: 650px;
+    margin-top: 16px;
+}
+.header-content h3{
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 39px;
+}
+.email-singup{
+    display: flex;
+    border-radius: 4px;
+    background: #fff;
+    align-items: center;
+    margin-top: 16px;
+    overflow: hidden;
+}
+.email-singup input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 24px;
+}
+
+.email-singup button{
+    background: #e50914;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    font-size:26px;
+    font-weight: 480;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
